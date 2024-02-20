@@ -17,9 +17,19 @@ Running tests using npm (Ofcource after setting up the project , Check installat
 npm test
 ```
 
+## CI & CD
 
+Continuous Testing and deployment to Github pages using github actions 
 
-### From the Author
+Action template used : 
+https://github.com/marketplace/actions/vite-github-pages-deployer
+
+Along with 
+Basic actions 
+Install node 
+Checkout 
+
+### From the original Author
 
 ---
 
