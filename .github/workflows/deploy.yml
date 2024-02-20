@@ -28,6 +28,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+      - run: npm install
       - run: npm run build
       - run: npm test
       - name: Vite Github Pages Deployer
